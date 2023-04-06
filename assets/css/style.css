@@ -7,17 +7,15 @@
 }
 
 .main-head{
-
+padding:0 1rem ;
 }
 .navbar{
      display: flex;
      justify-content: space-between;
-     
-
 }
 .brand-logo{
-width: 5rem;
-height: 5rem;
+width: 4rem;
+height: 4rem;
 border-radius: 50%;
 }
 ul{
