@@ -5,25 +5,55 @@
      margin: 0;
      box-sizing: border-box;
 }
+body{
+     background: #fbf8f5;
+}
+.bg{
+     width: 100%;
+     z-index: 1;
+position: relative;
 
+}
 .main-head{
 padding:0 1rem ;
+background: transparent;
+z-index: 999;
+top: 0;
+position: absolute;
 }
 .navbar{
      display: flex;
-     justify-content: space-between;
+     justify-content: end; 
+}
+.brand{
+     /* display: flex; */
+     /* align-items: center; */
+     gap: 1rem;
 }
 .brand-logo{
 width: 4rem;
 height: 4rem;
 border-radius: 50%;
 }
+.brand-head{
+          font-family: 'Play', sans-serif;
+}
+.active{
+     color: tomato;
+}
 ul{
-display: flex;
+/* display: flex; */
 gap: 1rem;
 margin-right: 3rem ;
 cursor: pointer;
 }
-ul:
+.nav-item:hover{
+     color: tomato;
+}
 .nav-item{
+     font-family: 'Play', sans-serif;
+
+}
+.home{
+
 }
