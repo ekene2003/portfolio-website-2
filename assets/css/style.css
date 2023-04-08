@@ -22,6 +22,8 @@ ul{
 display: flex;
 gap: 1rem;
 margin-right: 3rem ;
+cursor: pointer;
 }
+ul:
 .nav-item{
 }
