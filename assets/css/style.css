@@ -6,13 +6,15 @@
      box-sizing: border-box;
 }
 body{
-     background: #fbf8f5;
+     /* background: #fbf8f5; */
+background: #000;
 }
 .bg{
      width: 100%;
      z-index: 1;
 position: relative;
-
+opacity: 0.6;
+/* background: #000; */
 }
 .main-head{
 padding:0 1rem ;
@@ -20,14 +22,16 @@ background: transparent;
 z-index: 999;
 top: 0;
 position: absolute;
+width: 100%;
 }
 .navbar{
-     display: flex;
-     justify-content: end; 
+display: flex;
+justify-content: space-between;
+
 }
 .brand{
-     /* display: flex; */
-     /* align-items: center; */
+     display: flex;
+     align-items: center;
      gap: 1rem;
 }
 .brand-logo{
@@ -37,12 +41,16 @@ border-radius: 50%;
 }
 .brand-head{
           font-family: 'Play', sans-serif;
+          color: white;
+          font-size: 2rem;
 }
 .active{
      color: tomato;
 }
 ul{
-/* display: flex; */
+display: flex;
+align-items: center;
+color: white;
 gap: 1rem;
 margin-right: 3rem ;
 cursor: pointer;
@@ -52,8 +60,43 @@ cursor: pointer;
 }
 .nav-item{
      font-family: 'Play', sans-serif;
-
 }
 .home{
-
+position: absolute;
+top: 20%;
+z-index: 999;
+padding: 0 3rem;
+color: white;
+}
+.name{
+     font-size: 4rem;
+font-family: 'Roboto Flex', sans-serif;
+}
+.about{
+     font-family: 'Play', sans-serif;
+     color: whitesmoke;
+}
+.welcome{
+     font-family: 'Play', sans-serif;
+}
+.buttons{
+     display: flex;
+     gap: 1rem;
+     margin-left: .5rem;
+     font-family: 'Play', sans-serif;
+margin-top: 2rem;
+}
+.about-me{
+     padding: .5rem;
+     background: transparent;
+     border: 2px solid white;
+     color: white;
+     border-radius: .5rem;
+}
+.projects{
+     padding: .5rem;
+     background: transparent;
+     border: 2px solid white;
+     color: white;
+     border-radius: .5rem;
 }
