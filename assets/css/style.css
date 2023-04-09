@@ -13,8 +13,7 @@ background: #000;
      width: 100%;
      z-index: 1;
 position: relative;
-opacity: 0.6;
-/* background: #000; */
+opacity: 0.5;
 }
 .main-head{
 padding:0 1rem ;
@@ -78,6 +77,7 @@ font-family: 'Roboto Flex', sans-serif;
 }
 .welcome{
      font-family: 'Play', sans-serif;
+     font-size: 1.3rem;
 }
 .buttons{
      display: flex;
@@ -92,6 +92,7 @@ margin-top: 2rem;
      border: 2px solid white;
      color: white;
      border-radius: .5rem;
+
 }
 .projects{
      padding: .5rem;
@@ -99,4 +100,12 @@ margin-top: 2rem;
      border: 2px solid white;
      color: white;
      border-radius: .5rem;
+}
+.about-me:hover{
+     transform: scale(1.2);
+     color: tomato;
+}
+.projects:hover{
+     transform: scale(1.2);
+     color: tomato;
 }
