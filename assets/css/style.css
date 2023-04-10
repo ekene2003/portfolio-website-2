@@ -111,7 +111,9 @@ margin-top: 2rem;
 }
 .about-section{
 padding: 0 3rem;
- background: #fbf8f5;
+ /* background: #fbf8f5; */
+ background: white;
+
 }
 .container{
 
@@ -121,10 +123,16 @@ padding: 0 3rem;
 }
 .bio-img{
      width: 100%;
+     border-radius: 5rem;
 }
 .right{
 
 }
 .bio-p{
-
+     font-family: 'Play', sans-serif;
+        color: gray;
+}
+.about-head{
+font-family: 'Roboto Flex', sans-serif;
+font-weight: 900;
 }
