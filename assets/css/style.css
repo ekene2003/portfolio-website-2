@@ -161,10 +161,61 @@ font-weight: 900;
  padding:3rem;
 }
 .skills-wrap{
-     display: flex;
-     justify-content: space-evenly;
+     /* display: flex; */
+     /* justify-content: space-evenly; */
 }
 .skills-wrap img{
 height: 6rem;
 width: 6rem;
+}
+.first{
+     display: flex;
+     justify-content: space-around;
+     margin-bottom: 4rem;
+     margin-top: 4rem;
+}
+.second{
+     display: flex;
+     justify-content: space-around;
+     margin-bottom: 4rem ;
+
+}
+.skill{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+.skill-head{
+font-family: 'Roboto Flex', sans-serif;
+font-weight: 900;
+}
+.skills-p{
+     font-family: 'Play', sans-serif;
+color: grey;
+
+}
+.skills-wrap{
+
+}
+.skill-head{
+font-family: 'Roboto Flex', sans-serif;
+
+}
+.skill-p{
+     font-family: 'Play', sans-serif;
+color: grey;
+
+}
+.project-section{
+     padding:3rem;
+ background: #fbf8f5;
+
+}
+.project-head{
+font-family: 'Roboto Flex', sans-serif;
+
+}
+.project-p{
+     font-family: 'Play', sans-serif;
+
 }
