@@ -74,7 +74,7 @@ font-family: 'Roboto Flex', sans-serif;
 }
 .about{
      font-family: 'Play', sans-serif;
-     color: whitesmoke;
+     color: lightgray;
 }
 .welcome{
      font-family: 'Play', sans-serif;
@@ -217,5 +217,21 @@ font-family: 'Roboto Flex', sans-serif;
 }
 .project-p{
      font-family: 'Play', sans-serif;
-
+     color: gray;
+}
+.category-btn{
+     gap: 4rem;
+}
+.project-btn{
+  padding: .5rem;
+border-radius: .3rem;
+     /* box-shadow: 2px 2px 2px 1px gray; */
+     font-family: 'Play', sans-serif;
+color: black;
+ background: transparent;
+ border: 1px solid black;
+}
+.active{
+background: dimgray;
+color: white;
 }
