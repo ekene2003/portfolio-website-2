@@ -44,7 +44,7 @@ border-radius: 50%;
           color: white;
           font-size: 2rem;
 }
-.active{
+.active-page{
      color: tomato;
 }
 ul{
@@ -234,4 +234,24 @@ color: black;
 .active{
 background: dimgray;
 color: white;
+}
+.projects-wrap{
+
+}
+.first-projects{
+/* display: flex; */
+}
+.second-projects{
+/* display: flex; */
+}
+.third-projects{
+/* display: flex; */
+}
+.project{
+     cursor: pointer;
+}
+.project img{
+width: 100%;
+height: 19vw;
+box-shadow: 2px 2px 5px 1px #111;
 }
