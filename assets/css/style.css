@@ -225,11 +225,14 @@ font-family: 'Roboto Flex', sans-serif;
 .project-btn{
   padding: .5rem;
 border-radius: .3rem;
-     /* box-shadow: 2px 2px 2px 1px gray; */
+     box-shadow: 2px 1px 4px 1px gray;
      font-family: 'Play', sans-serif;
 color: black;
  background: transparent;
  border: 1px solid black;
+}
+.project-btn:hover{
+     transform: scale(1.3);
 }
 .active{
 background: dimgray;
@@ -252,6 +255,13 @@ color: white;
 }
 .project img{
 width: 100%;
-height: 19vw;
+height: 20vw;
 box-shadow: 2px 2px 5px 1px #111;
+}
+.modalBtn{
+background: gray;
+border: solid 1px black;
+}
+.modalBtn:hover{
+     
 }
