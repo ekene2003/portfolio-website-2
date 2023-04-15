@@ -272,3 +272,6 @@ filter: blur(2.5px) !important;
 .project:hover .modalBtn{
      display: block !important;
 }
+.modal-body img{
+width: 100%;
+}
