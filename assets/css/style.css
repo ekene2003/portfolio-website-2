@@ -275,3 +275,6 @@ filter: blur(2.5px) !important;
 .modal-body img{
 width: 100%;
 }
+.location-section iframe{
+     width: 100% !important;
+}
