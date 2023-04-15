@@ -277,4 +277,97 @@ width: 100%;
 }
 .location-section iframe{
      width: 100% !important;
+
 }
+footer.footer {
+    padding: 7rem 4rem;
+    display: flex;
+    gap: 4rem;
+    /* height: fit-content; */
+    width: 100%;
+    position: relative;
+ background: #fbf8f5;
+  }
+  div.social-head h1 {
+    position: absolute;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 3rem;
+    top: 5%;
+  } 
+  div.social-head p {
+    color: grey;
+    font-family: Source Sans Pro,sans-serif;
+  }
+  div.small-info h4{
+font-size: 1.1rem;
+margin-bottom: .5rem;
+  }
+  div.small-info p{
+margin-bottom: .5rem;
+    font-family: Source Sans Pro,sans-serif;
+  }
+
+  div.social-sec {
+    color: black;
+    margin-left: 2rem;
+  }
+  div.social-sec a {
+    color: black;
+    font-family: Source Sans Pro,sans-serif;
+  }
+  div.social-sec h3 {
+    margin-bottom: 0.7rem;
+  }
+  div.social-sec a:hover {
+    color: tomato;
+  }
+  div.contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    margin-right: 5rem;
+  }
+
+  div.social {
+    color: black;
+  }
+  div.social h3 {
+    margin-bottom: 0.7rem;
+  }
+  div.social small {
+    position: absolute;
+    bottom: 4%;
+    right: 2%;
+    font-family: Source Sans Pro,sans-serif;
+ color: gray;
+  }
+  div.social a {
+    color: black;
+    font-family: Source Sans Pro,sans-serif;
+  }
+  div.social a:hover {
+    color: rgba(242, 84, 56, 0.744);
+  }
+  div.social-med {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    color:black;
+  }
+  div.social-med svg {
+    margin-right: 0.5rem;
+  }
+  button.scroll{
+    padding: 1rem;
+    border-radius: 50%;
+    /* position: fixed; */
+    z-index: 9999;
+    position: absolute;
+    right:2%;
+  bottom: 14%;
+  cursor: pointer;
+  }
+  .footer-end{
+    color: grey;
+    font-family: 'Roboto Slab', serif;
+  }
