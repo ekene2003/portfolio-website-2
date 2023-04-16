@@ -4,6 +4,9 @@
      padding: 0;
      margin: 0;
      box-sizing: border-box;
+     text-decoration: none !important;
+     scroll-behavior: smooth;
+     
 }
 body{
      /* background: #fbf8f5; */
@@ -259,6 +262,10 @@ top: 40%;
 left: 40%;
 display: none;
 }
+.project-card-tittle{
+font-family: 'Roboto Flex', sans-serif;
+margin-top: 1rem;
+}
 .project-img:hover{
 filter: blur(2.5px);
 }
@@ -275,15 +282,18 @@ filter: blur(2.5px) !important;
 .modal-body img{
 width: 100%;
 }
+.location-section{
+ background: #fbf8f5;
+
+}
 .location-section iframe{
      width: 100% !important;
-
 }
 footer.footer {
     padding: 7rem 4rem;
     display: flex;
     gap: 4rem;
-    /* height: fit-content; */
+    height: fit-content;
     width: 100%;
     position: relative;
  background: #fbf8f5;
@@ -291,7 +301,7 @@ footer.footer {
   div.social-head h1 {
     position: absolute;
     font-family: 'Roboto Flex', sans-serif;
-    font-size: 3rem;
+    font-size: 3.5rem;
     top: 5%;
   } 
   div.social-head p {
@@ -299,7 +309,7 @@ footer.footer {
     font-family: Source Sans Pro,sans-serif;
   }
   div.small-info h4{
-font-size: 1.1rem;
+font-size: 1rem;
 margin-bottom: .5rem;
   }
   div.small-info p{
@@ -370,4 +380,6 @@ margin-bottom: .5rem;
   .footer-end{
     color: grey;
     font-family: 'Roboto Slab', serif;
+font-size: 1rem;
+
   }
