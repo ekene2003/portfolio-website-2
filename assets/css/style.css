@@ -30,7 +30,6 @@ width: 100%;
 display: flex;
 justify-content: space-between;
 align-items: center;
-
 }
 .brand{
      display: flex;
@@ -48,7 +47,7 @@ border-radius: 50%;
           font-size: 2rem;
 }
 .active-page{
-     color: tomato;
+     color: tomato !important;
 }
 ul{
 display: flex;
@@ -58,11 +57,16 @@ gap: 1rem;
 margin-right: 3rem ;
 cursor: pointer;
 }
+.toogle{
+     
+}
 .nav-item:hover{
      color: tomato;
+     transform: scale(1.2);
 }
 .nav-item{
      font-family: 'Play', sans-serif;
+     color: white;
 }
 .home{
 position: absolute;
@@ -129,6 +133,9 @@ padding: 3rem 3rem;
      width: 90%;
      border-radius:50%;
 }
+.bio-img:hover{
+transform: scale(1.1);
+}
 .right{
 
 }
@@ -170,6 +177,10 @@ font-weight: 900;
 .skills-wrap img{
 height: 6rem;
 width: 6rem;
+}
+.skills-wrap img:hover{
+     transform: scale(1.2);
+
 }
 .first{
      display: flex;
@@ -268,10 +279,16 @@ margin-top: 1rem;
 }
 .project-img:hover{
 filter: blur(2.5px);
+     transform: scale(1.05);
+
 }
 .modalBtn:hover{
 background: dimgray;
 border: none;
+}
+.modalBtn:hover .project-img{
+filter: blur(2.5px) !important;
+
 }
 .project:hover .project img{
 filter: blur(2.5px) !important;
@@ -370,7 +387,8 @@ margin-bottom: .5rem;
   button.scroll{
     padding: 1rem;
     border-radius: 50%;
-    /* position: fixed; */
+    /* position: fixed !important; */
+    background: dimgray;
     z-index: 9999;
     position: absolute;
     right:2%;
@@ -381,5 +399,4 @@ margin-bottom: .5rem;
     color: grey;
     font-family: 'Roboto Slab', serif;
 font-size: 1rem;
-
   }
