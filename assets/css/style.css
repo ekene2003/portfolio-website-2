@@ -8,7 +8,8 @@
      scroll-behavior: smooth;
      
 }
-body{
+@media screen and (min-width:768px) {
+     body{
      /* background: #fbf8f5; */
 background: #000;
 }
@@ -40,6 +41,9 @@ align-items: center;
 width: 4rem;
 height: 4rem;
 border-radius: 50%;
+}
+.nav-icon{
+     display: none;
 }
 .toogle{
      padding: .8;
@@ -423,4 +427,435 @@ margin-bottom: .5rem;
     color: grey;
     font-family: 'Roboto Slab', serif;
 font-size: 1rem;
+  }
+
+}
+  @media screen and (max-width:768px) {
+     body{
+     /* background: #fbf8f5; */
+background: #000;
+}
+.bg{
+     width: 100%;
+     /* height: 150vw ; */
+     object-fit: fill;
+     z-index: 1;
+position: relative;
+opacity: 0.4;
+}
+.main-head{
+padding:0 1rem ;
+background: transparent;
+z-index: 999;
+top: 0;
+position: absolute;
+width: 100%;
+}
+.navbar{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.brand{
+     display: flex;
+     align-items: center;
+     gap: 1rem;
+}
+.brand-logo{
+width: 4rem;
+height: 4rem;
+border-radius: 50%;
+}
+.nav-icon{
+display: flex;
+}
+.open{
+padding: 1rem;
+border: 1px solid white;
+color: white;
+border-radius: 50%;
+}
+.Close{
+padding: 1rem;
+border: 1px solid white;
+color: white;
+border-radius: 50%;
+}
+.toogle{
+     padding: .8;
+     border: 1px solid white ;
+     border-radius: 3rem;
+     height: 2rem;
+     width: 4.5rem;
+     display: flex;
+     align-items: center;
+     position: relative;
+     cursor: pointer;
+}
+.fa-sun{
+margin-right: 1rem;
+}
+.circle{
+      position: absolute;
+     /* left: 0; */
+     margin-top: .2rem;
+}
+svg.fa-circle{
+     height: 1.5rem;
+     width: 2rem;
+}
+.fa-moon{
+margin-left: .5rem;
+}
+.brand-head{
+          font-family: 'Play', sans-serif;
+          color: white;
+          font-size: 2rem;
+}
+.active-page{
+     color: tomato !important;
+}
+ul{
+display: flex;
+flex-direction: column;
+background: #fbf8f5;
+color: black !important;
+width: 100%;
+/* height: 100vw; */
+gap: 1rem;
+/* margin-right: 3rem ; */
+cursor: pointer;
+display: none;
+}
+
+
+.nav-item{
+     font-family: 'Play', sans-serif;
+     color: black;
+}
+.home{
+position: absolute;
+top: 5rem;
+z-index: 999;
+padding: 0 2rem !important;
+color: white;
+}
+.name{
+     font-size: 3rem;
+font-family: 'Roboto Flex', sans-serif;
+}
+.about{
+     font-family: 'Play', sans-serif;
+     color: lightgray;
+}
+.welcome{
+     font-family: 'Play', sans-serif;
+     font-size: 1.2rem;
+}
+.buttons{
+     display: flex;
+     gap: 1rem;
+     margin-left: .5rem;
+     font-family: 'Play', sans-serif;
+margin-top: 1rem;
+}
+.about-me{
+     padding: .5rem;
+     background: transparent;
+     border: 2px solid white;
+     color: white;
+     border-radius: .5rem;
+
+}
+.projects{
+     padding: .5rem;
+     background: transparent;
+     border: 2px solid white;
+     color: white;
+     border-radius: .5rem;
+}
+
+.about-section{
+padding:1rem 2rem;
+ background: #fbf8f5;
+ /* background: white; */
+
+}
+.container{
+
+}
+.left{
+
+}
+.bio-img{
+     width: 90%;
+     border-radius:50%;
+}
+.bio-img:hover{
+transform: scale(1.1);
+}
+.right{
+
+}
+.bio-p{
+     font-family: 'Play', sans-serif;
+        color: gray;
+}
+.about-head{
+font-family: 'Roboto Flex', sans-serif;
+font-weight: 900;
+}
+.socials{
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     background: #111;
+     border-radius: 3rem;
+     padding: 1rem;
+     box-shadow: 2px 2px 6px 3px gray;
+     cursor: pointer;
+
+}
+.media{
+          height: 2rem;
+     width: 1.5rem;
+     color: white;
+}
+.media:hover{
+     transform: scale(1.8);
+}
+.skill-section{
+ background:#eeeeeb;
+ padding:3rem;
+}
+.skills-wrap{
+     /* display: flex; */
+     /* justify-content: space-evenly; */
+}
+.skills-wrap img{
+height: 6rem;
+width: 6rem;
+}
+.skills-wrap img:hover{
+     transform: scale(1.2);
+
+}
+.first{
+     display: flex;
+     justify-content: space-around;
+     margin-bottom: 4rem;
+     margin-top: 4rem;
+}
+.second{
+     display: flex;
+     justify-content: space-around;
+     margin-bottom: 4rem ;
+
+}
+.skill{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+.skill-head{
+font-family: 'Roboto Flex', sans-serif;
+font-weight: 900;
+}
+.skills-p{
+     font-family: 'Play', sans-serif;
+color: grey;
+
+}
+.skills-wrap{
+
+}
+.skill-head{
+font-family: 'Roboto Flex', sans-serif;
+
+}
+.skill-p{
+     font-family: 'Play', sans-serif;
+color: grey;
+
+}
+.project-section{
+     padding:3rem;
+ background: #fbf8f5;
+
+}
+.project-head{
+font-family: 'Roboto Flex', sans-serif;
+
+}
+.project-p{
+     font-family: 'Play', sans-serif;
+     color: gray;
+}
+.category-btn{
+     gap: 4rem;
+}
+.project-btn{
+  padding: .5rem;
+border-radius: .3rem;
+     box-shadow: 2px 1px 4px 1px gray;
+     font-family: 'Play', sans-serif;
+color: black;
+ background: transparent;
+ border: 1px solid black;
+}
+.project-btn:hover{
+     transform: scale(1.3);
+}
+.active{
+background: dimgray;
+color: white;
+}
+.projects-wrap{
+
+}
+.project{
+     cursor: pointer;
+     position: relative; 
+}
+.project-img{
+width: 100%;
+height: 20vw;
+box-shadow: 2px 2px 5px 1px #111;
+/* background-color: #000; */
+}
+.modalBtn{
+background: gray;
+border: solid 1px black;
+position: absolute;
+top: 40%;
+left: 40%;
+display: none;
+}
+.project-card-tittle{
+font-family: 'Roboto Flex', sans-serif;
+margin-top: 1rem;
+}
+.project-img:hover{
+filter: blur(2.5px);
+     transform: scale(1.05);
+
+}
+.modalBtn:hover{
+background: dimgray;
+border: none;
+}
+.modalBtn:hover .project-img{
+filter: blur(2.5px) !important;
+
+}
+.project:hover .project img{
+filter: blur(2.5px) !important;
+}
+.project:hover .modalBtn{
+     display: block !important;
+}
+.modal-body img{
+width: 100%;
+}
+.location-section{
+ background: #fbf8f5;
+
+}
+.location-section iframe{
+     width: 100% !important;
+}
+footer.footer {
+    padding: 7rem 4rem;
+    display: flex;
+    gap: 4rem;
+    height: fit-content;
+    width: 100%;
+    position: relative;
+ background: #fbf8f5;
+  }
+  div.social-head h1 {
+    position: absolute;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 3.5rem;
+    top: 5%;
+  } 
+  div.social-head p {
+    color: grey;
+    font-family: Source Sans Pro,sans-serif;
+  }
+  div.small-info h4{
+font-size: 1rem;
+margin-bottom: .5rem;
+  }
+  div.small-info p{
+margin-bottom: .5rem;
+    font-family: Source Sans Pro,sans-serif;
+  }
+
+  div.social-sec {
+    color: black;
+    margin-left: 2rem;
+  }
+  div.social-sec a {
+    color: black;
+    font-family: Source Sans Pro,sans-serif;
+  }
+  div.social-sec h3 {
+    margin-bottom: 0.7rem;
+  }
+  div.social-sec a:hover {
+    color: tomato;
+  }
+  div.contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    margin-right: 5rem;
+  }
+
+  div.social {
+    color: black;
+  }
+  div.social h3 {
+    margin-bottom: 0.7rem;
+  }
+  div.social small {
+    position: absolute;
+    bottom: 4%;
+    right: 2%;
+    font-family: Source Sans Pro,sans-serif;
+ color: gray;
+  }
+  div.social a {
+    color: black;
+    font-family: Source Sans Pro,sans-serif;
+  }
+  div.social a:hover {
+    color: rgba(242, 84, 56, 0.744);
+  }
+  div.social-med {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    color:black;
+  }
+  div.social-med svg {
+    margin-right: 0.5rem;
+  }
+  button.scroll{
+    padding: 1rem;
+    border-radius: 50%;
+    /* position: fixed !important; */
+    background: dimgray;
+    z-index: 9999;
+    position: absolute;
+    right:2%;
+  bottom: 14%;
+  cursor: pointer;
+  }
+  .footer-end{
+    color: grey;
+    font-family: 'Roboto Slab', serif;
+font-size: 1rem;
+  }
   }
