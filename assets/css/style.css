@@ -47,6 +47,9 @@ border-radius: 50%;
 .nav-icon{
      display: none;
 }
+.nav-icon2{
+     display: none;
+}
 .toogle{
      padding: .8;
      border: 1px solid white ;
@@ -265,6 +268,7 @@ font-family: 'Roboto Flex', sans-serif;
 }
 .category-btn{
      gap: 4rem;
+
 }
 .project-btn{
   padding: .5rem;
@@ -438,11 +442,13 @@ font-size: 1rem;
 background: #000;
 }
 .bg{
-     width:100%;
-     height: 150vw !important;
+     height: 100vh !important;
+     width: 100%;
+     object-fit: cover;
+     height: fit-content;
      z-index: 1;
-opacity: 0.4;
 position: relative;
+opacity: 0.3;
 }
 .main-head{
 padding:0 1rem ;
@@ -453,19 +459,18 @@ position: absolute;
 margin-top: 1rem;
 display: flex;
 justify-content:space-between;
+width: 100%;
 }
 .brand{
      display: flex;
      align-items: center;
-     margin-right: 4rem;
-      gap: 1rem;
+      gap: .5rem;
 }
 .brand-logo{
 width: 4rem;
 height: 4rem;
 border-radius: 50%;
 }
-
 .open{
 padding: 1rem;
 border: 1px solid white;
@@ -490,7 +495,7 @@ position: absolute;
      display: flex;
      align-items: center;
      position: relative;
-     cursor: pointer;
+     margin-top: 1rem;
 }
 .fa-sun{
 margin-right: 1rem;
@@ -522,8 +527,9 @@ background: #fbf8f5;
 color: black !important;
 position: absolute;
 top: 120%;
+left: -100%;
 width: 100%;
-height: 60vw;
+/* height: 40vh; */
 padding: 1rem;
 z-index: 99 !important;
 }
@@ -535,6 +541,8 @@ z-index: 99 !important;
     border-radius: 50%;
     width: 3rem;
     height: 3rem;
+    position: absolute;
+    right: 2%;
   }
   button.nav-icon2 {
     display: none;
@@ -545,19 +553,24 @@ z-index: 99 !important;
     color:  white;
     height: 3rem;
     width: 3rem;
+        position: absolute;
+    right: 0;
   }
 .nav-item{
      font-family: 'Play', sans-serif;
      color: black;
+     margin-top: 1rem;
 }
 .home{
 position: absolute;
-top: 5rem;
+top: 10%;
 bottom: 4rem;
 z-index: 9;
-padding:0 1rem !important;
+padding:3rem 1rem !important;
 color: white;
+height: 100vw;
 
+background: transparent;
 }
 .name{
      font-size: 3rem;
@@ -597,6 +610,7 @@ margin-bottom: 2rem;
 .about-section{
 padding:2rem 2rem;
  background: #fbf8f5;
+ /* margin-top: 30rem; */
  /* background: white; */
 
 }
@@ -633,7 +647,7 @@ font-weight: 900;
      padding: 1rem;
      box-shadow: 2px 2px 6px 3px gray;
      cursor: pointer;
-
+    width: 100%;
 }
 .media{
           height: 2rem;
@@ -648,28 +662,16 @@ font-weight: 900;
  padding:2rem;
 }
 .skills-wrap{
-     /* display: flex; */
-     /* justify-content: space-evenly; */
+     display: flex;
+     justify-content: space-evenly;
+     flex-direction: column;
+     align-items: center;
 }
 .skills-wrap img{
 height: 5rem;
 width: 5rem;
 }
 
-.first{
-     display: flex;
-     justify-content: space-evenly;
-     margin-bottom: 4rem;
-     margin-top: 4rem;
-     gap: 1.5rem;
-}
-.second{
-     display: flex;
-     justify-content: space-evenly;
-     margin-bottom: 4rem ;
-     gap: 1.5rem;
-     
-}
 .skill{
      display: flex;
      flex-direction: column;
@@ -711,19 +713,17 @@ font-family: 'Roboto Flex', sans-serif;
      color: gray;
 }
 .category-btn{
-     gap: 1rem;
+
 }
 .project-btn{
-  padding: .5rem;
+  padding: .2rem;
 border-radius: .3rem;
      box-shadow: 2px 1px 4px 1px gray;
      font-family: 'Play', sans-serif;
 color: black;
  background: transparent;
  border: 1px solid black;
-}
-.project-btn:hover{
-     transform: scale(1.3);
+ margin-top: 2rem;
 }
 .active{
 background: dimgray;
