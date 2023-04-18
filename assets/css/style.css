@@ -6,7 +6,7 @@
      box-sizing: border-box;
      text-decoration: none !important;
      scroll-behavior: smooth;
-     
+     transition: all .5s ease-in;
 }
 @media screen and (min-width:768px) {
      body{
@@ -471,21 +471,6 @@ width: 4rem;
 height: 4rem;
 border-radius: 50%;
 }
-.open{
-padding: 1rem;
-border: 1px solid white;
-color: white;
-border-radius: 50%;
-
-}
-.Close{
-padding: 1rem;
-border: 1px solid white;
-color: white;
-border-radius: 50%;
-right: 0;
-position: absolute;
-}
 .toogle{
      padding: .8;
      border: 1px solid white ;
@@ -496,18 +481,20 @@ position: absolute;
      align-items: center;
      position: relative;
      margin-top: 1rem;
+     background: grey;
 }
 .fa-sun{
 margin-right: 1rem;
 }
 .circle{
       position: absolute;
-     /* left: 0; */
      margin-top: .2rem;
+     color: white;
 }
 svg.fa-circle{
      height: 1.5rem;
      width: 2rem;
+     color: white;
 }
 .fa-moon{
 margin-left: .5rem;
@@ -563,7 +550,7 @@ z-index: 99 !important;
 }
 .home{
 position: absolute;
-top: 10%;
+top: 5%;
 bottom: 4rem;
 z-index: 9;
 padding:3rem 1rem !important;
