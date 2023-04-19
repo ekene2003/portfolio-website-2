@@ -22,6 +22,7 @@ let projectBtn = multielem(".project-btn");
 let footerLinks = multielem(".footer-links");
 let socials = singleelem(".socials");
 let footerHead = singleelem(".get-in-touch");
+let scrollBtn = singleelem(".scroll");
 openBtn.onclick = () => {
      openBtn.style.display = "none";
      nav.style.left = "0";
@@ -78,5 +79,12 @@ lightModeBtn.onclick = () => {
      footerLinks.forEach(link => {
      link.style.color = "black";
      });
-
+}
+window.onscroll = () => {
+     if (scrollY>450) {
+     scrollBtn.style.position = "fixed";
+     }
+     else {
+     scrollBtn.style.position = "relative";
+     }
 }
