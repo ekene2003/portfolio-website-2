@@ -49,7 +49,7 @@ darkModeBtn.onclick = () => {
      toogleBtn.style.right = "0%";
      toogleBtn.style.left = "";
      darkBg.innerHTML = `
-     <img src="./assets/images/night2.jpg" alt="" class="bg">
+     <img src="https://res.cloudinary.com/dvznglupe/image/upload/v1681994340/night2_j8bk6n.jpg" alt="" class="bg">
      `;
      darkBg.style.transition = "all 2s ease-in-out 5ms";
      aboutSection.style.background = "#121212";
@@ -77,7 +77,7 @@ lightModeBtn.onclick = () => {
      toogleBtn.style.left = "0%";
      toogleBtn.style.right = "";
      darkBg.innerHTML = `
-               <img src="./assets/images/pexels-pixabay-514575.jpg" alt="" class="bg">
+               <img src="https://res.cloudinary.com/dvznglupe/image/upload/v1681994312/pexels-pixabay-514575_kow5jg.jpg" alt="" class="bg">
      `;
      darkBg.style.transition = "all 2s ease-in-out 5ms";
      aboutSection.style.background = "#fbf8f5";
