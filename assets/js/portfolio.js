@@ -20,6 +20,7 @@ let aboutHead = singleelem(".about-head");
 let projectHead = singleelem(".project-head");
 let projectBtn = multielem(".project-btn");
 let footerLinks = multielem(".footer-links");
+let navLinks = multielem(".nav-item");
 let socials = singleelem(".socials");
 let footerHead = singleelem(".get-in-touch");
 let scrollBtn = singleelem(".scroll");
@@ -33,6 +34,15 @@ closeBtn.onclick = () => {
      openBtn.style.display = "block";
      nav.style.left = "-100%";
 }
+navLinks.forEach(link => {
+     link.onclick = () => {
+          navLinks.forEach(elem => {
+               elem.classList.remove("active-page");
+          });
+               link.classList.add("active-page");
+
+     }
+});
 darkModeBtn.onclick = () => {
      toogleBtn.style.right = "0%";
      toogleBtn.style.left = "";
@@ -47,7 +57,8 @@ darkModeBtn.onclick = () => {
      socials.style.boxShadow = "none"; 
      socials.style.background = "black"; 
      projectBtn.forEach(btn => {
-     btn.style.color = "white"; 
+          btn.style.color = "white"; 
+          btn.style.boxShadow = "2px 1px 4px 1px black"
      });
      aboutHead.style.color = "white";
      projectHead.style.color = "white";
@@ -55,7 +66,10 @@ darkModeBtn.onclick = () => {
      footerLinks.forEach(link => {
      link.style.color = "white";
      });
-
+     nav.style.background = "#121212";
+     navLinks.forEach(link => {
+          link.style.color = "white";
+     });
 }
 lightModeBtn.onclick = () => {
      toogleBtn.style.left = "0%";
@@ -78,6 +92,10 @@ lightModeBtn.onclick = () => {
      footerHead.style.color = "black";
      footerLinks.forEach(link => {
      link.style.color = "black";
+     });
+     nav.style.background = "#fbf8f5";  
+     navLinks.forEach(link => {
+          link.style.color = "grey";
      });
 }
 window.onscroll = () => {

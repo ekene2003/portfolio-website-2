@@ -84,13 +84,14 @@ margin-left: .5rem;
 .active-page{
      color: tomato !important;
 }
-ul{
+ul.nav-wrap{
 display: flex;
 align-items: center;
 color: white;
 gap: 1rem;
 margin-right: 3rem ;
 cursor: pointer;
+background-color: transparent !important ;
 }
 
 .nav-item:hover{
@@ -99,7 +100,9 @@ cursor: pointer;
 }
 .nav-item{
      font-family: 'Play', sans-serif;
-     color: white;
+     color: gray;
+background-color: none !important;
+
 }
 .home{
 position: absolute;
@@ -268,7 +271,7 @@ font-family: 'Roboto Flex', sans-serif;
 }
 .category-btn{
      gap: 4rem;
-
+margin-top: 3rem;
 }
 .project-btn{
   padding: .5rem;
@@ -485,6 +488,8 @@ border-radius: 50%;
 }
 .fa-sun{
 margin-right: 1rem;
+color: white;
+
 }
 .circle{
       position: absolute;
@@ -498,6 +503,7 @@ svg.fa-circle{
 }
 .fa-moon{
 margin-left: .5rem;
+color: white;
 }
 .brand-head{
           font-family: 'Play', sans-serif;
@@ -545,7 +551,7 @@ z-index: 99 !important;
   }
 .nav-item{
      font-family: 'Play', sans-serif;
-     color: black;
+     color: grey;
      margin-top: 1rem;
 }
 .home{
@@ -700,7 +706,6 @@ font-family: 'Roboto Flex', sans-serif;
      color: gray;
 }
 .category-btn{
-
 }
 .project-btn{
   padding: .2rem;
@@ -710,7 +715,7 @@ border-radius: .3rem;
 color: black;
  background: transparent;
  border: 1px solid black;
- margin-top: 2rem;
+ margin-top: 3rem !important;
 }
 .active{
 background: dimgray;
@@ -851,7 +856,7 @@ margin-bottom: .2rem;
   bottom: 8%;
   cursor: pointer;
   color: #000;
-  background: dimgrey;
+  background: dimgrey    ;
   }
   .footer-end{
     color: grey;
