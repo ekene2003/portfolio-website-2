@@ -10,7 +10,7 @@
 }
 @media screen and (min-width:768px) {
      body{
-     /* background: #fbf8f5; */
+     overflow-x: hidden !important;
 background: #000;
 }
 .bg{
@@ -205,6 +205,7 @@ font-weight: 900;
 .skill-section{
  background:#eeeeeb;
  padding:3rem;
+ /* overflow: hidden;  */
 }
 .skills-wrap{
      /* display: flex; */
@@ -443,6 +444,7 @@ font-size: 1rem;
   @media screen and (max-width:768px) {
      body{
 background: #000;
+overflow-x: hidden;
 }
 .bg{
      height: 100vh !important;
@@ -856,7 +858,7 @@ margin-bottom: .2rem;
   bottom: 8%;
   cursor: pointer;
   color: #000;
-  background: dimgrey    ;
+  background: dimgrey;
   }
   .footer-end{
     color: grey;

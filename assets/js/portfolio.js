@@ -87,7 +87,9 @@ lightModeBtn.onclick = () => {
      socials.style.boxShadow = "2px 2px 6px 3px gray"; 
      socials.style.background = "black"; 
      projectBtn.forEach(btn => {
-     btn.style.color = "black"; 
+          btn.style.color = "black"; 
+          btn.style.boxShadow = "2px 1px 4px 1px grey"
+          
      });
      aboutHead.style.color = "black";
      projectHead.style.color = "black";
@@ -118,13 +120,16 @@ projectBtn.forEach(btn => {
           projectCards.forEach(card => {
                let type = card.dataset.type;
                if (category === "All") { 
+                    card.style.opacity = "1";
                     card.style.display = "block";
                }
                else {
                     if (type === category) { 
-                    card.style.display = "block";
+                    card.style.opacity = "1";
+                         card.style.display = "block";
                     }
                     else {
+                    card.style.opacity = "0";
                          card.style.display = "none";
                     };
                }
