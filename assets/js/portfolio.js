@@ -24,6 +24,8 @@ let navLinks = multielem(".nav-item");
 let socials = singleelem(".socials");
 let footerHead = singleelem(".get-in-touch");
 let scrollBtn = singleelem(".scroll");
+          let projectCards = multielem(".project");
+
 openBtn.onclick = () => {
      openBtn.style.display = "none";
      nav.style.left = "0";
@@ -106,3 +108,29 @@ window.onscroll = () => {
      scrollBtn.style.position = "relative";
      }
 }
+projectBtn.forEach(btn => {
+     btn.onclick = () => {
+          projectBtn.forEach(elem => {
+               elem.classList.remove("active");
+          });
+               btn.classList.add("active");
+          let category = btn.dataset.category;
+          projectCards.forEach(card => {
+               let type = card.dataset.type;
+               if (category === "All") { 
+                    card.style.display = "block";
+               }
+               else {
+                    if (type === category) { 
+                    card.style.display = "block";
+                    }
+                    else {
+                         card.style.display = "none";
+                    };
+               }
+               
+               
+          });
+      }
+     
+});
