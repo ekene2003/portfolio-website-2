@@ -434,7 +434,7 @@ margin-bottom: .5rem;
   bottom: 14%;
   cursor: pointer;
   }
-  .footer-end{
+  .end{
     color: grey;
     font-family: 'Roboto Slab', serif;
 font-size: 1rem;
@@ -864,4 +864,7 @@ margin-bottom: .2rem;
     color: grey;
     font-family: 'Roboto Slab', serif;
   } 
+  .footer-links {
+color: black;
+  }
  }
