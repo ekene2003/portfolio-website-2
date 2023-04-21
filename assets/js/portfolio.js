@@ -25,7 +25,8 @@ let socials = singleelem(".socials");
 let footerHead = singleelem(".get-in-touch");
 let scrollBtn = singleelem(".scroll");
           let projectCards = multielem(".project");
-
+          let modal = multielem(".modal-content");
+          let projectTittle = multielem(".project-card-tittle");
 openBtn.onclick = () => {
      openBtn.style.display = "none";
      nav.style.left = "0";
@@ -72,6 +73,12 @@ darkModeBtn.onclick = () => {
      navLinks.forEach(link => {
           link.style.color = "white";
      });
+     modal.forEach(elem => {
+          elem.style.background = "#121212";
+     });
+     projectTittle.forEach(tittle => {
+          tittle.style.color = "white";
+     });
 }
 lightModeBtn.onclick = () => {
      toogleBtn.style.left = "0%";
@@ -100,6 +107,12 @@ lightModeBtn.onclick = () => {
      nav.style.background = "#fbf8f5";  
      navLinks.forEach(link => {
           link.style.color = "grey";
+     });
+          modal.forEach(elem => {
+          elem.style.background = "#fbf8f5";
+     });
+     projectTittle.forEach(tittle => {
+          tittle.style.color = "black";
      });
 }
 window.onscroll = () => {
