@@ -683,7 +683,10 @@ color: grey;
 
 }
 .skills-wrap{
-
+margin-top: 2rem;
+}
+.skill{
+     margin-top: 1rem;
 }
 .skill-head{
 font-family: 'Roboto Flex', sans-serif;
