@@ -450,7 +450,6 @@ overflow-x: hidden;
      height: 100vh !important;
      width: 100%;
      object-fit: cover;
-     height: fit-content;
      z-index: 1;
 position: relative;
 opacity: 0.43;
