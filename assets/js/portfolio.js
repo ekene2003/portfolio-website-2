@@ -126,9 +126,8 @@ window.onscroll = () => {
 projectBtn.forEach(btn => {
      btn.onclick = () => {
           projectBtn.forEach(elem => {
-               elem.classList.remove("current");
+               elem.classList.remove("active");
           });
-          btn.classList.add("current");
                btn.classList.add("active");
           let category = btn.dataset.category;
           projectCards.forEach(card => {
