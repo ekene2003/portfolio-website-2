@@ -105,7 +105,7 @@
   }
   .home {
     position: absolute;
-    top: 5rem;
+    top: 4.5rem;
     z-index: 999;
     padding: 0 3rem;
     color: white;
@@ -114,6 +114,10 @@
     font-size: 4rem;
     font-family: "Roboto Flex", sans-serif;
   }
+  .name2 {
+     font-size: 4rem;
+     font-family: "Roboto Flex", sans-serif;
+   }
   .about {
     font-family: "Play", sans-serif;
     color: lightgray;
@@ -122,12 +126,35 @@
     font-family: "Play", sans-serif;
     font-size: 1.3rem;
   }
+  .line-1{
+     width: 20em;
+     margin: 0 auto;
+     border-right: 1px solid rgba(255,255,255,.75);
+    font-size: 4rem;  
+     /* text-align: center; */
+     white-space: nowrap;
+     overflow: hidden;
+     transform: translateY(-50%);    
+ }
+ /* Animation */
+.anim-typewriter{
+     animation: typewriter 4s steps(40) 1s 1 normal both,
+                blinkTextCursor 500ms steps(40) forwards normal;
+   }
+   @keyframes typewriter{
+     from{width: 0;}
+     to{width: 24em;}
+   }
+   @keyframes blinkTextCursor{
+     from{border-right-color: rgba(255,255,255,.75);}
+     to{border-right-color: transparent;}
+   }
   .buttons {
     display: flex;
     gap: 1rem;
     margin-left: 0.5rem;
     font-family: "Play", sans-serif;
-    margin-top: 2rem;
+    margin-top: 1.4rem;
   }
   .about-me {
     padding: 0.5rem;
