@@ -7,6 +7,8 @@
      text-decoration: none !important;
      scroll-behavior: smooth;
      transition: all .5s ease-in;
+     page-orientation: inherit;
+     /* overflow-x:hidden; */
 }
 @media screen and (min-width:768px) {
      body{
@@ -17,7 +19,8 @@ background: #000;
      width: 100%;
      z-index: 1;
 position: relative;
-opacity: 0.4;
+opacity: 0.3;
+filter: blur(.3px);
 }
 .main-head{
 padding:0 1rem ;

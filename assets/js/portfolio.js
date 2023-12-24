@@ -24,9 +24,9 @@ let navLinks = multielem(".nav-item");
 let socials = singleelem(".socials");
 let footerHead = singleelem(".get-in-touch");
 let scrollBtn = singleelem(".scroll");
-          let projectCards = multielem(".project");
-          let modal = multielem(".modal-content");
-          let projectTittle = multielem(".project-card-tittle");
+let projectCards = multielem(".project");
+ let modal = multielem(".modal-content");
+  let projectTittle = multielem(".project-card-tittle");
 openBtn.onclick = () => {
      openBtn.style.display = "none";
      nav.style.left = "0";
@@ -84,7 +84,7 @@ lightModeBtn.onclick = () => {
      toogleBtn.style.left = "0%";
      toogleBtn.style.right = "";
      darkBg.innerHTML = `
-               <img src="https://res.cloudinary.com/dvznglupe/image/upload/v1681994312/pexels-pixabay-514575_kow5jg.jpg" alt="" class="bg">
+               <img src="./assets/images/pexels-christina-morillo-1181271.jpg" alt="" class="bg">
      `;
      darkBg.style.transition = "all 2s ease-in-out 5ms";
      aboutSection.style.background = "#fbf8f5";
